@@ -13,7 +13,7 @@
     "StaticDist/include/Jumio/*.h"
   ],
   "vendored_frameworks": [
-    "StaticDistFramework.framework",
-    "JumioCore.framework"
+    "JumioCore.framework",
+    "StaticDistFramework.framework"
   ]
 }

@@ -10,6 +10,7 @@
 
 #import "NSDictionary+StaticTest.h"
 #import "NSString+JMHashing.h"
+#import "NSData+Base64.h"
 
 @implementation WrapperProject
 
@@ -17,6 +18,10 @@
 {
     NSDictionary *dict = @{};
     [dict mm_testMethod];
+    
+    NSData *data = [NSData data];
+    NSString *answer = [data JMbase64EncodedString];
+    
     [@"example" JMsha1String];
 }
 

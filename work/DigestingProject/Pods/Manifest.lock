@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../WrapperProject"
 
 SPEC CHECKSUMS:
-  WrapperProject: f3e03396c0246c02ec132f069c6fe71ddb8e6812
+  WrapperProject: 046d51f03ff2cf690806dfc1517f12e7197abc7e
 
 COCOAPODS: 0.39.0
