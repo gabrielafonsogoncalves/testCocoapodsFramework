@@ -1,0 +1,1 @@
+../../../../../WrapperProject/StaticDist/include/Jumio/UIScreen+Utilities.h

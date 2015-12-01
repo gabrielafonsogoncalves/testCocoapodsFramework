@@ -1,0 +1,15 @@
+{
+  "name": "WrapperProject",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "git@github.com/themackworth/WrapperProject.git"
+  },
+  "source_files": [
+    "WrapperProject/*.{h,m}",
+    "StaticDist/include/StaticDist/*.h"
+  ],
+  "vendored_libraries": "StaticDist/libStaticDist.a"
+}

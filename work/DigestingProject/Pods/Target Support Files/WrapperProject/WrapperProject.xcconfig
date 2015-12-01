@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../WrapperProject" "${PODS_ROOT}/../../WrapperProject"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/WrapperProject" "${PODS_ROOT}/Headers/Public"
+OTHER_LDFLAGS = -framework "JumioCore" -framework "StaticDistFramework"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

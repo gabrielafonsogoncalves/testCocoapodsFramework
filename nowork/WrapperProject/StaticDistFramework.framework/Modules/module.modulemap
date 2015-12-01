@@ -1,0 +1,6 @@
+framework module StaticDistFramework {
+  umbrella header "StaticDistFramework.h"
+
+  export *
+  module * { export * }
+}

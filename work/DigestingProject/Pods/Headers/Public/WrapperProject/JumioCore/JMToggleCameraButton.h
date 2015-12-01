@@ -1,0 +1,1 @@
+../../../../../../WrapperProject/JumioCore.framework/Headers/JMToggleCameraButton.h

@@ -1,0 +1,1 @@
+../../../../../WrapperProject/StaticDist/include/Jumio/NSData+Base64.h

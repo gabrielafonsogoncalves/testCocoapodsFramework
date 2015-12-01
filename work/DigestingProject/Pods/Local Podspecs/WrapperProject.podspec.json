@@ -1,0 +1,19 @@
+{
+  "name": "WrapperProject",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com/themackworth/WrapperProject.git"
+  },
+  "source_files": [
+    "WrapperProject/*.{h,m}",
+    "StaticDist/include/StaticDist/*.h",
+    "StaticDist/include/Jumio/*.h"
+  ],
+  "vendored_frameworks": [
+    "StaticDistFramework.framework",
+    "JumioCore.framework"
+  ]
+}

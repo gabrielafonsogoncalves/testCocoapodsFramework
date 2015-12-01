@@ -1,0 +1,1 @@
+../../../../../../WrapperProject/JumioCore.framework/Headers/NSData+Base64.h

@@ -1,0 +1,14 @@
+PODS:
+  - WrapperProject (1.0.0)
+
+DEPENDENCIES:
+  - WrapperProject (from `../WrapperProject`)
+
+EXTERNAL SOURCES:
+  WrapperProject:
+    :path: "../WrapperProject"
+
+SPEC CHECKSUMS:
+  WrapperProject: f3e03396c0246c02ec132f069c6fe71ddb8e6812
+
+COCOAPODS: 0.39.0

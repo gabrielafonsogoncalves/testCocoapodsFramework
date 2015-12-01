@@ -1,0 +1,1 @@
+../../../../../../WrapperProject/StaticDistFramework.framework/Headers/NSDictionary+StaticTest.h

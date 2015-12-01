@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0606F3795B946B50CDE4FDBDDF4F2D50 /* JMBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD7B0FD5E6BC16EAB679F17A5C2A459 /* JMBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6F250E7641A0E3B3EECAFF6D2A8DC6 /* JMToggleCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B792757207C9CC23A89C1C51651A7B7 /* JMToggleCameraButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15582AAD96CFC6C7026784F5CE7D2B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1662122FAB39860891F7282FA0F63E94 /* WrapperProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA77BC43D3E68144BE3EA5B66E633592 /* WrapperProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1690D1FF32E77A1F8ADC70789030DAA1 /* JMRoiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1DD964422C243881BC4C086D78E613 /* JMRoiUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19CEFF4102458EE42B0EBED7C84D437D /* UIScreen+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E75BA2F0E385D8F02AF56DAE3EB9D7 /* UIScreen+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA2EC1CF0CD1818F9095E17248F9FBD /* NSString+JMLevenshtein.h in Headers */ = {isa = PBXBuildFile; fileRef = 378B1A31A7E84460BAB7B0638B7025DD /* NSString+JMLevenshtein.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B60F5B4DB6034C0345E4B2FC2C4A9E5 /* JMToggleFlashButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B1778DDF1F39C49E25268E1097272A /* JMToggleFlashButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D16E34A5AF0F421DC70F82FC10C99BC /* JMBaseCollapsableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 806571A762EC8F608671F1D02901C99A /* JMBaseCollapsableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D55F9386E2884EA6F0A091268EB12BA /* JMThemeableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C68EFCCF2C4412C10C1A706AD2179BC5 /* JMThemeableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E21A78E01B6123AFD215A68EB11E2E1 /* UIImage+JMUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EE369774FA4DFFC5A5A48D397FD0F2A2 /* UIImage+JMUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E27A33624D63962AE314B48E772E954 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FCE4040C637DAD0AA8E96D72A0D534F /* NSDictionary+StaticTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8F582FBC831B53CC77F5572B8BBDA8 /* NSDictionary+StaticTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21274DA022E2FF8F6B20D58DD306071D /* JMImageBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2BE301C3AAC24CD2D43425660E4EAA /* JMImageBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21709018E10E5EB7210BA8CA063D31FC /* JMBaseServerTask+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B18D4BE3ACEEC3AE7056D7D994C42D13 /* JMBaseServerTask+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A670CB8B52B3D550CE73F19A6C8A9E /* JMRoiOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = EB12626D30928626F69046F08DFE7209 /* JMRoiOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2300E7694BF3D96004AEFBEFF7CBA957 /* JMNavigationBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 437FA4FAFF33C1E5F1163822A28D4AEB /* JMNavigationBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24078A969F2D3B42E6BEFA5FD78F8DA7 /* NSString+JMHashing.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA97FEEF337282F06996C36C2DE41 /* NSString+JMHashing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29B1654C9020204D46BFB36D7185D75A /* JMCaptureSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A3F0444F4DAF43457EB672BE202C7 /* JMCaptureSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A89996AB20BE1A6F904D05B5B9EBBCA /* UIImage+JMImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A00FF4C2886CFF18B059705B6137F68 /* UIImage+JMImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5CFD4364C5CE8488C72DE49003AD48 /* JMBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFDD4F0B1F4CFB6BBFFA4A1B61B91E7 /* JMBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4156C7891E0CE5EE5E3863FEF5774C3C /* JMExtendedScanDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE6C21F631397DE971DFA021FEEB100 /* JMExtendedScanDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AAD15F326EB5F0787EF7912B34D2926 /* JMTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EBFC22B2A99D4CCF8CC4018EA8E573 /* JMTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FD5906F3EA7A2D49F16001C626B3DC1 /* JMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = E65B06E123CEF8E93C40B8807120A199 /* JMAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50CA6569E6DE5048F962BE1E8D4D6C2A /* JMResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E04F322525E74E711A1637B8CFF10C /* JMResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5718AF48648580709925AF95C623E2B4 /* JMAutolayoutUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A2916A7D1246C3AEF4CA0C9053DFD685 /* JMAutolayoutUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590BDDAA5F01502914FFA938D988CDF4 /* JMRoi.h in Headers */ = {isa = PBXBuildFile; fileRef = 36131999FA0337C094CE5B1BDBE7AC07 /* JMRoi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5E11AC02E1E9BFB5036FD875AEBBC0 /* JMBaseServerTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BAD830BD52885AA959AD94304A0C01 /* JMBaseServerTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B06C888E4917E5B24C52A39DAD4BE51 /* StaticDist.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B027CD87CF91F00938D71609FF9A9 /* StaticDist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E893C110F01E8F1E698C80A78DFD291 /* WrapperProject.m in Sources */ = {isa = PBXBuildFile; fileRef = B41D44F99CAC13ACFCAD890B944747A5 /* WrapperProject.m */; };
+		5F1CBD49416B75BB0A0B94FE4CC1BADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		626D21D5391E0FF3D21E8A45FB8EDEF5 /* JMAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = C0488776EDEF5DA8BB7A92C1A6823FC9 /* JMAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F104ADFEDAB61A0FB320D4B2A0AFBC /* JMFinalState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2748BC3EDDCF20362B0600E63F7F5871 /* JMFinalState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68BADC6CE6FD4DB576A1FA453A5698EA /* JMBaseInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 996FF566AE1DC7C544412DE4178694F2 /* JMBaseInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6FFC972F3D1974CA270FB42456E9F0 /* UIView+JMFrameManipulations.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F18A1FC0BFBD044CCFDA27166D372A /* UIView+JMFrameManipulations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7AF78685F2F1EE39BC1AEB50F7B85F /* JMBrandingLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC09010811E6B0E6822CE7E8F47618F /* JMBrandingLogo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750A64C0ED7224F94697E7FA6D7C47AA /* JMCertificateBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F43FA95BCC25097B5C90B09F32A29EB /* JMCertificateBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D4DA7550CE2083BB30321F89AA9839 /* JMString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7761E1FC9AB8E5FF9EE07B73E388AB /* JMString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85454F62CB313D8122173ABBCC439887 /* JMUtilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B47D363C2464B0C7ECF64E9883476FB /* JMUtilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8989EE24B4819B2D4A9D2F89C588F429 /* JMManualEntryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E909225C3E6106B93E470B1D582611 /* JMManualEntryButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE4F1CB854BE8E71756691F869B9172 /* JMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 97354D11111D3039AC60D4B9CB1F1A4A /* JMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C8A3037E217D5B9D65A65041183092B /* JMStateTransitionEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7B9F64A51CCEF2489E28F9FDCC9722 /* JMStateTransitionEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A53EB69C797B56F828D4A80F0FC15A /* JMNetworkStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BAAA8022BFD2DE0FAF6174A5DEB8E3 /* JMNetworkStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8205278E2A3EEB3D1AA17917AD96BF /* JMLoadingTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D262F7B02E713BFA919C5C9FACF8A24 /* JMLoadingTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C935B6C7D93632369F6F20DD7171D8 /* JMUIController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5B67A345044058C69503354B13DA03 /* JMUIController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A997BEB6C6AC4EAB4A7AF5AD862BD9F3 /* NSString+JMUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618B02ED3CB52049780F9714F6498A3 /* NSString+JMUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB61FDFEB98C640BF66B94557E3CC834 /* JMConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAF298F47DDFA5B38B398305D25F335 /* JMConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16F96EDB69AC9611ADAF755C5F8B811 /* JMRoiSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB0D39934CCC912EB1B1AC0A3F22313 /* JMRoiSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E271B7F4DE67DAEC67340361C711B3 /* JMSDKStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 935063B72BE185347E90A4EFA7BF93B5 /* JMSDKStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6FF8FFBF71EC20F0EB27C261306F9BF /* JMSeparatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC0791A4EB36FF673FB12FF921214AA /* JMSeparatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7305F570F258BAFCDCA5ECA7C143A2F /* JMNetworkStateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3BC61EEA453F41B89EC0EA72FBC392 /* JMNetworkStateConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC10F2A865AAF83129716F3869C92D73 /* WrapperProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2A1D7F994C66BCD95BC9A654A6B44A /* WrapperProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE2A506975C1C5B137F32C20587E33CC /* JMStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7FBF3FC16F7184B8BC4775F497B721 /* JMStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1394CB2F710C6567EB939451C8447B3 /* JMNetworkState.h in Headers */ = {isa = PBXBuildFile; fileRef = 7715CB232B517F27CD1ABCCB4ABA95C4 /* JMNetworkState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C686C99FA8CC919BAD6F47E5A5E19A02 /* JMCameraFocusIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2914DDFDB4EAA39EECF67FA355921479 /* JMCameraFocusIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88B20827291A793D172960DF1C87726 /* UIDevice+JMHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E57B6B9E8370B2EEF2E99B3F19E4EEB /* UIDevice+JMHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1786CD08EFE1741B212CAB8EEE97042 /* JMBaseState.h in Headers */ = {isa = PBXBuildFile; fileRef = E69EC0E06D14A154420FEA5AFBDB7964 /* JMBaseState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A243220485C8BD00B8EEAB547B12D2 /* JMState.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AD3C9641F54599E3A61112AB804BD8 /* JMState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F5D7042F1F6DD1C3FC478113E141F6 /* JMAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E490B38CDA718EA785D998EFC52F3B /* JMAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51D0650D06133474AA35FC83BA72945 /* JumioCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 752C88B97F859E4FF61D3B72DC71081F /* JumioCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74BF7A4F2AA5F2CB16881D0A70BC3EA /* JMStateTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 520DC96A0DFFAEC198725953AB0FE70F /* JMStateTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D854817799024D4DC9D92F4D98B0DB6A /* JMLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DDB21393B8A4FED1D5696D4A1A5DF0 /* JMLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB0F787FF084844A9A4F145EC8E44D9D /* JMStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DAA9CFE0F563BFD852A4EA815DA841 /* JMStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E661C2A647F5193927EEB909DD04A2A0 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 77421D5DA0D0E4678CECAEB015A42744 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE65180E6F25A6CC9151E5EB322A20A2 /* JMServerTaskLogInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B414050BB0A524BA6806BE6DF03AF25 /* JMServerTaskLogInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1330661EF843C92A05B3B1F01D34AE6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		F1B2A373DFC876815E1689C7E980C160 /* WrapperProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2797BD871FDA7475922A3CB88E32DD91 /* WrapperProject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E473503E5B52231E344A4A3FA3888E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3B9260787BE7CFB38EA6A08CCCCCCE;
+			remoteInfo = WrapperProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BAAA8022BFD2DE0FAF6174A5DEB8E3 /* JMNetworkStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNetworkStateMachine.h; sourceTree = "<group>"; };
+		0A00FF4C2886CFF18B059705B6137F68 /* UIImage+JMImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMImage.h"; sourceTree = "<group>"; };
+		0AC4FB18327CF05A9BE38B2F78655367 /* WrapperProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WrapperProject-prefix.pch"; sourceTree = "<group>"; };
+		0B414050BB0A524BA6806BE6DF03AF25 /* JMServerTaskLogInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMServerTaskLogInfo.h; sourceTree = "<group>"; };
+		0F43FA95BCC25097B5C90B09F32A29EB /* JMCertificateBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMCertificateBundle.h; sourceTree = "<group>"; };
+		1741B530327C9F07D609E252ACD37DCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DD46C2DB0C7583407CEC63F8B7042 /* StaticDistFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StaticDistFramework.framework; sourceTree = "<group>"; };
+		1CC426F2DBEAA639C0ED11DD9E511E8D /* WrapperProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WrapperProject.xcconfig; sourceTree = "<group>"; };
+		1D8F582FBC831B53CC77F5572B8BBDA8 /* NSDictionary+StaticTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+StaticTest.h"; sourceTree = "<group>"; };
+		1E5B67A345044058C69503354B13DA03 /* JMUIController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMUIController.h; sourceTree = "<group>"; };
+		220B027CD87CF91F00938D71609FF9A9 /* StaticDist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StaticDist.h; sourceTree = "<group>"; };
+		2748BC3EDDCF20362B0600E63F7F5871 /* JMFinalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMFinalState.h; sourceTree = "<group>"; };
+		2797BD871FDA7475922A3CB88E32DD91 /* WrapperProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WrapperProject-dummy.m"; sourceTree = "<group>"; };
+		2914DDFDB4EAA39EECF67FA355921479 /* JMCameraFocusIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMCameraFocusIndicatorView.h; sourceTree = "<group>"; };
+		2B7B9F64A51CCEF2489E28F9FDCC9722 /* JMStateTransitionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStateTransitionEvent.h; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2CD7B0FD5E6BC16EAB679F17A5C2A459 /* JMBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseTableViewCell.h; sourceTree = "<group>"; };
+		2E2A1D7F994C66BCD95BC9A654A6B44A /* WrapperProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WrapperProject.h; sourceTree = "<group>"; };
+		36131999FA0337C094CE5B1BDBE7AC07 /* JMRoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRoi.h; sourceTree = "<group>"; };
+		378B1A31A7E84460BAB7B0638B7025DD /* NSString+JMLevenshtein.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JMLevenshtein.h"; sourceTree = "<group>"; };
+		3B792757207C9CC23A89C1C51651A7B7 /* JMToggleCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMToggleCameraButton.h; sourceTree = "<group>"; };
+		3CAF298F47DDFA5B38B398305D25F335 /* JMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMConstants.h; sourceTree = "<group>"; };
+		3D0C85966771C518A0C326E88012A862 /* JumioCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JumioCore.framework; sourceTree = "<group>"; };
+		3D7761E1FC9AB8E5FF9EE07B73E388AB /* JMString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMString.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41BAD830BD52885AA959AD94304A0C01 /* JMBaseServerTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseServerTask.h; sourceTree = "<group>"; };
+		437FA4FAFF33C1E5F1163822A28D4AEB /* JMNavigationBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNavigationBarItem.h; sourceTree = "<group>"; };
+		47DAA9CFE0F563BFD852A4EA815DA841 /* JMStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStringUtilities.h; sourceTree = "<group>"; };
+		4B47D363C2464B0C7ECF64E9883476FB /* JMUtilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMUtilityMacros.h; sourceTree = "<group>"; };
+		4D262F7B02E713BFA919C5C9FACF8A24 /* JMLoadingTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMLoadingTableViewCell.h; sourceTree = "<group>"; };
+		520DC96A0DFFAEC198725953AB0FE70F /* JMStateTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStateTransition.h; sourceTree = "<group>"; };
+		56E04F322525E74E711A1637B8CFF10C /* JMResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMResourceLoader.h; sourceTree = "<group>"; };
+		58E9B8467506E74046CA78ACE3857572 /* WrapperProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WrapperProject.modulemap; sourceTree = "<group>"; };
+		6AC0791A4EB36FF673FB12FF921214AA /* JMSeparatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMSeparatorView.h; sourceTree = "<group>"; };
+		6E57B6B9E8370B2EEF2E99B3F19E4EEB /* UIDevice+JMHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JMHardware.h"; sourceTree = "<group>"; };
+		752C88B97F859E4FF61D3B72DC71081F /* JumioCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JumioCore.h; sourceTree = "<group>"; };
+		7715CB232B517F27CD1ABCCB4ABA95C4 /* JMNetworkState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNetworkState.h; sourceTree = "<group>"; };
+		77421D5DA0D0E4678CECAEB015A42744 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7AEDF4F3A864084957E0AAE78B086970 /* WrapperProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WrapperProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		806571A762EC8F608671F1D02901C99A /* JMBaseCollapsableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseCollapsableView.h; sourceTree = "<group>"; };
+		81E909225C3E6106B93E470B1D582611 /* JMManualEntryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMManualEntryButton.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		87E2366A6DFC9A16CCCF641EB9380113 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8FC09010811E6B0E6822CE7E8F47618F /* JMBrandingLogo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBrandingLogo.h; sourceTree = "<group>"; };
+		8FE6C21F631397DE971DFA021FEEB100 /* JMExtendedScanDebugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMExtendedScanDebugging.h; sourceTree = "<group>"; };
+		91E75BA2F0E385D8F02AF56DAE3EB9D7 /* UIScreen+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Utilities.h"; sourceTree = "<group>"; };
+		935063B72BE185347E90A4EFA7BF93B5 /* JMSDKStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMSDKStyle.h; sourceTree = "<group>"; };
+		9618B02ED3CB52049780F9714F6498A3 /* NSString+JMUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JMUtilities.h"; sourceTree = "<group>"; };
+		97354D11111D3039AC60D4B9CB1F1A4A /* JMSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMSDK.h; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		996FF566AE1DC7C544412DE4178694F2 /* JMBaseInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseInfoView.h; sourceTree = "<group>"; };
+		A1B1778DDF1F39C49E25268E1097272A /* JMToggleFlashButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMToggleFlashButton.h; sourceTree = "<group>"; };
+		A2916A7D1246C3AEF4CA0C9053DFD685 /* JMAutolayoutUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMAutolayoutUtilities.h; sourceTree = "<group>"; };
+		A8AD3C9641F54599E3A61112AB804BD8 /* JMState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMState.h; sourceTree = "<group>"; };
+		B18D4BE3ACEEC3AE7056D7D994C42D13 /* JMBaseServerTask+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMBaseServerTask+Utilities.h"; sourceTree = "<group>"; };
+		B41D44F99CAC13ACFCAD890B944747A5 /* WrapperProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WrapperProject.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD3BC61EEA453F41B89EC0EA72FBC392 /* JMNetworkStateConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNetworkStateConstants.h; sourceTree = "<group>"; };
+		BE1DD964422C243881BC4C086D78E613 /* JMRoiUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRoiUtils.h; sourceTree = "<group>"; };
+		C0488776EDEF5DA8BB7A92C1A6823FC9 /* JMAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMAppearance.h; sourceTree = "<group>"; };
+		C68EFCCF2C4412C10C1A706AD2179BC5 /* JMThemeableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMThemeableButton.h; sourceTree = "<group>"; };
+		CA77BC43D3E68144BE3EA5B66E633592 /* WrapperProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WrapperProject-umbrella.h"; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CD2BE301C3AAC24CD2D43425660E4EAA /* JMImageBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMImageBundle.h; sourceTree = "<group>"; };
+		CF7FBF3FC16F7184B8BC4775F497B721 /* JMStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStateMachine.h; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DE4DA97FEEF337282F06996C36C2DE41 /* NSString+JMHashing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JMHashing.h"; sourceTree = "<group>"; };
+		DEB0D39934CCC912EB1B1AC0A3F22313 /* JMRoiSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRoiSettings.h; sourceTree = "<group>"; };
+		E0E490B38CDA718EA785D998EFC52F3B /* JMAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMAlertViewController.h; sourceTree = "<group>"; };
+		E4EBFC22B2A99D4CCF8CC4018EA8E573 /* JMTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMTableView.h; sourceTree = "<group>"; };
+		E63A3F0444F4DAF43457EB672BE202C7 /* JMCaptureSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMCaptureSessionManager.h; sourceTree = "<group>"; };
+		E65B06E123CEF8E93C40B8807120A199 /* JMAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMAlertView.h; sourceTree = "<group>"; };
+		E69EC0E06D14A154420FEA5AFBDB7964 /* JMBaseState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseState.h; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DDB21393B8A4FED1D5696D4A1A5DF0 /* JMLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMLogging.h; sourceTree = "<group>"; };
+		EB12626D30928626F69046F08DFE7209 /* JMRoiOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRoiOverlay.h; sourceTree = "<group>"; };
+		EE369774FA4DFFC5A5A48D397FD0F2A2 /* UIImage+JMUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMUtilities.h"; sourceTree = "<group>"; };
+		F8F18A1FC0BFBD044CCFDA27166D372A /* UIView+JMFrameManipulations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrameManipulations.h"; sourceTree = "<group>"; };
+		FDFDD4F0B1F4CFB6BBFFA4A1B61B91E7 /* JMBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77D9FD5CB76B812641F82D2CBC9E29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15582AAD96CFC6C7026784F5CE7D2B31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC72C285B0B38B31DF90F7A020B794E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1CBD49416B75BB0A0B94FE4CC1BADC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB4DE07F64962DEF8AEAC31BE49DA92 /* StaticDist */ = {
+			isa = PBXGroup;
+			children = (
+				73F97C2B52BE3DA3A0A653BBDC706CB4 /* include */,
+			);
+			path = StaticDist;
+			sourceTree = "<group>";
+		};
+		57045DB86A007DD0C8864811F2DF1958 /* WrapperProject */ = {
+			isa = PBXGroup;
+			children = (
+				2E2A1D7F994C66BCD95BC9A654A6B44A /* WrapperProject.h */,
+				B41D44F99CAC13ACFCAD890B944747A5 /* WrapperProject.m */,
+			);
+			path = WrapperProject;
+			sourceTree = "<group>";
+		};
+		73F97C2B52BE3DA3A0A653BBDC706CB4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E1F7DEE2AEFAC8A5BB864E3F176895A8 /* Jumio */,
+				7D1D773A4EC488B8B8DCD08B5511055C /* StaticDist */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		75310EFF1218D482E9149BB06188EB3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E2366A6DFC9A16CCCF641EB9380113 /* Pods.framework */,
+				7AEDF4F3A864084957E0AAE78B086970 /* WrapperProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		77B05B5ECFCD4B12D5F1B52E1BC768A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C85966771C518A0C326E88012A862 /* JumioCore.framework */,
+				183DD46C2DB0C7583407CEC63F8B7042 /* StaticDistFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D1D773A4EC488B8B8DCD08B5511055C /* StaticDist */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F582FBC831B53CC77F5572B8BBDA8 /* NSDictionary+StaticTest.h */,
+				220B027CD87CF91F00938D71609FF9A9 /* StaticDist.h */,
+			);
+			path = StaticDist;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C0DDE27E2BFF5BF0A7496FAD134C953C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				75310EFF1218D482E9149BB06188EB3F /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB385E038E0396C2FC6827D24552444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1741B530327C9F07D609E252ACD37DCB /* Info.plist */,
+				58E9B8467506E74046CA78ACE3857572 /* WrapperProject.modulemap */,
+				1CC426F2DBEAA639C0ED11DD9E511E8D /* WrapperProject.xcconfig */,
+				2797BD871FDA7475922A3CB88E32DD91 /* WrapperProject-dummy.m */,
+				0AC4FB18327CF05A9BE38B2F78655367 /* WrapperProject-prefix.pch */,
+				CA77BC43D3E68144BE3EA5B66E633592 /* WrapperProject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../DigestingProject/Pods/Target Support Files/WrapperProject";
+			sourceTree = "<group>";
+		};
+		A56F5D72A9B6350938F4B64AB77CD08A /* WrapperProject */ = {
+			isa = PBXGroup;
+			children = (
+				77B05B5ECFCD4B12D5F1B52E1BC768A5 /* Frameworks */,
+				2DB4DE07F64962DEF8AEAC31BE49DA92 /* StaticDist */,
+				8DB385E038E0396C2FC6827D24552444 /* Support Files */,
+				57045DB86A007DD0C8864811F2DF1958 /* WrapperProject */,
+			);
+			name = WrapperProject;
+			path = ../../WrapperProject;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0DDE27E2BFF5BF0A7496FAD134C953C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5D72A9B6350938F4B64AB77CD08A /* WrapperProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E1F7DEE2AEFAC8A5BB864E3F176895A8 /* Jumio */ = {
+			isa = PBXGroup;
+			children = (
+				E65B06E123CEF8E93C40B8807120A199 /* JMAlertView.h */,
+				E0E490B38CDA718EA785D998EFC52F3B /* JMAlertViewController.h */,
+				C0488776EDEF5DA8BB7A92C1A6823FC9 /* JMAppearance.h */,
+				A2916A7D1246C3AEF4CA0C9053DFD685 /* JMAutolayoutUtilities.h */,
+				806571A762EC8F608671F1D02901C99A /* JMBaseCollapsableView.h */,
+				996FF566AE1DC7C544412DE4178694F2 /* JMBaseInfoView.h */,
+				41BAD830BD52885AA959AD94304A0C01 /* JMBaseServerTask.h */,
+				B18D4BE3ACEEC3AE7056D7D994C42D13 /* JMBaseServerTask+Utilities.h */,
+				E69EC0E06D14A154420FEA5AFBDB7964 /* JMBaseState.h */,
+				2CD7B0FD5E6BC16EAB679F17A5C2A459 /* JMBaseTableViewCell.h */,
+				FDFDD4F0B1F4CFB6BBFFA4A1B61B91E7 /* JMBaseView.h */,
+				8FC09010811E6B0E6822CE7E8F47618F /* JMBrandingLogo.h */,
+				2914DDFDB4EAA39EECF67FA355921479 /* JMCameraFocusIndicatorView.h */,
+				E63A3F0444F4DAF43457EB672BE202C7 /* JMCaptureSessionManager.h */,
+				0F43FA95BCC25097B5C90B09F32A29EB /* JMCertificateBundle.h */,
+				3CAF298F47DDFA5B38B398305D25F335 /* JMConstants.h */,
+				8FE6C21F631397DE971DFA021FEEB100 /* JMExtendedScanDebugging.h */,
+				2748BC3EDDCF20362B0600E63F7F5871 /* JMFinalState.h */,
+				CD2BE301C3AAC24CD2D43425660E4EAA /* JMImageBundle.h */,
+				4D262F7B02E713BFA919C5C9FACF8A24 /* JMLoadingTableViewCell.h */,
+				E8DDB21393B8A4FED1D5696D4A1A5DF0 /* JMLogging.h */,
+				81E909225C3E6106B93E470B1D582611 /* JMManualEntryButton.h */,
+				437FA4FAFF33C1E5F1163822A28D4AEB /* JMNavigationBarItem.h */,
+				7715CB232B517F27CD1ABCCB4ABA95C4 /* JMNetworkState.h */,
+				BD3BC61EEA453F41B89EC0EA72FBC392 /* JMNetworkStateConstants.h */,
+				05BAAA8022BFD2DE0FAF6174A5DEB8E3 /* JMNetworkStateMachine.h */,
+				56E04F322525E74E711A1637B8CFF10C /* JMResourceLoader.h */,
+				36131999FA0337C094CE5B1BDBE7AC07 /* JMRoi.h */,
+				EB12626D30928626F69046F08DFE7209 /* JMRoiOverlay.h */,
+				DEB0D39934CCC912EB1B1AC0A3F22313 /* JMRoiSettings.h */,
+				BE1DD964422C243881BC4C086D78E613 /* JMRoiUtils.h */,
+				97354D11111D3039AC60D4B9CB1F1A4A /* JMSDK.h */,
+				935063B72BE185347E90A4EFA7BF93B5 /* JMSDKStyle.h */,
+				6AC0791A4EB36FF673FB12FF921214AA /* JMSeparatorView.h */,
+				0B414050BB0A524BA6806BE6DF03AF25 /* JMServerTaskLogInfo.h */,
+				A8AD3C9641F54599E3A61112AB804BD8 /* JMState.h */,
+				CF7FBF3FC16F7184B8BC4775F497B721 /* JMStateMachine.h */,
+				520DC96A0DFFAEC198725953AB0FE70F /* JMStateTransition.h */,
+				2B7B9F64A51CCEF2489E28F9FDCC9722 /* JMStateTransitionEvent.h */,
+				3D7761E1FC9AB8E5FF9EE07B73E388AB /* JMString.h */,
+				47DAA9CFE0F563BFD852A4EA815DA841 /* JMStringUtilities.h */,
+				E4EBFC22B2A99D4CCF8CC4018EA8E573 /* JMTableView.h */,
+				C68EFCCF2C4412C10C1A706AD2179BC5 /* JMThemeableButton.h */,
+				3B792757207C9CC23A89C1C51651A7B7 /* JMToggleCameraButton.h */,
+				A1B1778DDF1F39C49E25268E1097272A /* JMToggleFlashButton.h */,
+				1E5B67A345044058C69503354B13DA03 /* JMUIController.h */,
+				4B47D363C2464B0C7ECF64E9883476FB /* JMUtilityMacros.h */,
+				752C88B97F859E4FF61D3B72DC71081F /* JumioCore.h */,
+				77421D5DA0D0E4678CECAEB015A42744 /* NSData+Base64.h */,
+				DE4DA97FEEF337282F06996C36C2DE41 /* NSString+JMHashing.h */,
+				378B1A31A7E84460BAB7B0638B7025DD /* NSString+JMLevenshtein.h */,
+				9618B02ED3CB52049780F9714F6498A3 /* NSString+JMUtilities.h */,
+				6E57B6B9E8370B2EEF2E99B3F19E4EEB /* UIDevice+JMHardware.h */,
+				0A00FF4C2886CFF18B059705B6137F68 /* UIImage+JMImage.h */,
+				EE369774FA4DFFC5A5A48D397FD0F2A2 /* UIImage+JMUtilities.h */,
+				91E75BA2F0E385D8F02AF56DAE3EB9D7 /* UIScreen+Utilities.h */,
+				F8F18A1FC0BFBD044CCFDA27166D372A /* UIView+JMFrameManipulations.h */,
+			);
+			path = Jumio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		467534311E907A5332468AD37F30A50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD5906F3EA7A2D49F16001C626B3DC1 /* JMAlertView.h in Headers */,
+				D3F5D7042F1F6DD1C3FC478113E141F6 /* JMAlertViewController.h in Headers */,
+				626D21D5391E0FF3D21E8A45FB8EDEF5 /* JMAppearance.h in Headers */,
+				5718AF48648580709925AF95C623E2B4 /* JMAutolayoutUtilities.h in Headers */,
+				1D16E34A5AF0F421DC70F82FC10C99BC /* JMBaseCollapsableView.h in Headers */,
+				68BADC6CE6FD4DB576A1FA453A5698EA /* JMBaseInfoView.h in Headers */,
+				21709018E10E5EB7210BA8CA063D31FC /* JMBaseServerTask+Utilities.h in Headers */,
+				5A5E11AC02E1E9BFB5036FD875AEBBC0 /* JMBaseServerTask.h in Headers */,
+				D1786CD08EFE1741B212CAB8EEE97042 /* JMBaseState.h in Headers */,
+				0606F3795B946B50CDE4FDBDDF4F2D50 /* JMBaseTableViewCell.h in Headers */,
+				3C5CFD4364C5CE8488C72DE49003AD48 /* JMBaseView.h in Headers */,
+				6F7AF78685F2F1EE39BC1AEB50F7B85F /* JMBrandingLogo.h in Headers */,
+				C686C99FA8CC919BAD6F47E5A5E19A02 /* JMCameraFocusIndicatorView.h in Headers */,
+				29B1654C9020204D46BFB36D7185D75A /* JMCaptureSessionManager.h in Headers */,
+				750A64C0ED7224F94697E7FA6D7C47AA /* JMCertificateBundle.h in Headers */,
+				AB61FDFEB98C640BF66B94557E3CC834 /* JMConstants.h in Headers */,
+				4156C7891E0CE5EE5E3863FEF5774C3C /* JMExtendedScanDebugging.h in Headers */,
+				62F104ADFEDAB61A0FB320D4B2A0AFBC /* JMFinalState.h in Headers */,
+				21274DA022E2FF8F6B20D58DD306071D /* JMImageBundle.h in Headers */,
+				9F8205278E2A3EEB3D1AA17917AD96BF /* JMLoadingTableViewCell.h in Headers */,
+				D854817799024D4DC9D92F4D98B0DB6A /* JMLogging.h in Headers */,
+				8989EE24B4819B2D4A9D2F89C588F429 /* JMManualEntryButton.h in Headers */,
+				2300E7694BF3D96004AEFBEFF7CBA957 /* JMNavigationBarItem.h in Headers */,
+				C1394CB2F710C6567EB939451C8447B3 /* JMNetworkState.h in Headers */,
+				B7305F570F258BAFCDCA5ECA7C143A2F /* JMNetworkStateConstants.h in Headers */,
+				99A53EB69C797B56F828D4A80F0FC15A /* JMNetworkStateMachine.h in Headers */,
+				50CA6569E6DE5048F962BE1E8D4D6C2A /* JMResourceLoader.h in Headers */,
+				590BDDAA5F01502914FFA938D988CDF4 /* JMRoi.h in Headers */,
+				21A670CB8B52B3D550CE73F19A6C8A9E /* JMRoiOverlay.h in Headers */,
+				B16F96EDB69AC9611ADAF755C5F8B811 /* JMRoiSettings.h in Headers */,
+				1690D1FF32E77A1F8ADC70789030DAA1 /* JMRoiUtils.h in Headers */,
+				8BE4F1CB854BE8E71756691F869B9172 /* JMSDK.h in Headers */,
+				B2E271B7F4DE67DAEC67340361C711B3 /* JMSDKStyle.h in Headers */,
+				B6FF8FFBF71EC20F0EB27C261306F9BF /* JMSeparatorView.h in Headers */,
+				EE65180E6F25A6CC9151E5EB322A20A2 /* JMServerTaskLogInfo.h in Headers */,
+				D3A243220485C8BD00B8EEAB547B12D2 /* JMState.h in Headers */,
+				BE2A506975C1C5B137F32C20587E33CC /* JMStateMachine.h in Headers */,
+				D74BF7A4F2AA5F2CB16881D0A70BC3EA /* JMStateTransition.h in Headers */,
+				8C8A3037E217D5B9D65A65041183092B /* JMStateTransitionEvent.h in Headers */,
+				84D4DA7550CE2083BB30321F89AA9839 /* JMString.h in Headers */,
+				DB0F787FF084844A9A4F145EC8E44D9D /* JMStringUtilities.h in Headers */,
+				4AAD15F326EB5F0787EF7912B34D2926 /* JMTableView.h in Headers */,
+				1D55F9386E2884EA6F0A091268EB12BA /* JMThemeableButton.h in Headers */,
+				0D6F250E7641A0E3B3EECAFF6D2A8DC6 /* JMToggleCameraButton.h in Headers */,
+				1B60F5B4DB6034C0345E4B2FC2C4A9E5 /* JMToggleFlashButton.h in Headers */,
+				A6C935B6C7D93632369F6F20DD7171D8 /* JMUIController.h in Headers */,
+				85454F62CB313D8122173ABBCC439887 /* JMUtilityMacros.h in Headers */,
+				D51D0650D06133474AA35FC83BA72945 /* JumioCore.h in Headers */,
+				E661C2A647F5193927EEB909DD04A2A0 /* NSData+Base64.h in Headers */,
+				1FCE4040C637DAD0AA8E96D72A0D534F /* NSDictionary+StaticTest.h in Headers */,
+				24078A969F2D3B42E6BEFA5FD78F8DA7 /* NSString+JMHashing.h in Headers */,
+				1AA2EC1CF0CD1818F9095E17248F9FBD /* NSString+JMLevenshtein.h in Headers */,
+				A997BEB6C6AC4EAB4A7AF5AD862BD9F3 /* NSString+JMUtilities.h in Headers */,
+				5B06C888E4917E5B24C52A39DAD4BE51 /* StaticDist.h in Headers */,
+				C88B20827291A793D172960DF1C87726 /* UIDevice+JMHardware.h in Headers */,
+				2A89996AB20BE1A6F904D05B5B9EBBCA /* UIImage+JMImage.h in Headers */,
+				1E21A78E01B6123AFD215A68EB11E2E1 /* UIImage+JMUtilities.h in Headers */,
+				19CEFF4102458EE42B0EBED7C84D437D /* UIScreen+Utilities.h in Headers */,
+				6C6FFC972F3D1974CA270FB42456E9F0 /* UIView+JMFrameManipulations.h in Headers */,
+				1662122FAB39860891F7282FA0F63E94 /* WrapperProject-umbrella.h in Headers */,
+				BC10F2A865AAF83129716F3869C92D73 /* WrapperProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE02666C7F866CCAAA2E9BAF5125C6B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E27A33624D63962AE314B48E772E954 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A3B9260787BE7CFB38EA6A08CCCCCCE /* WrapperProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8366130BF26EACCAD691031E2D6009E /* Build configuration list for PBXNativeTarget "WrapperProject" */;
+			buildPhases = (
+				7381E4A6058C1693FB9747C5EA580153 /* Sources */,
+				B77D9FD5CB76B812641F82D2CBC9E29B /* Frameworks */,
+				467534311E907A5332468AD37F30A50E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WrapperProject;
+			productName = WrapperProject;
+			productReference = 7AEDF4F3A864084957E0AAE78B086970 /* WrapperProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF3747FF3B2996FB9C9B0E249850B905 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DCDCE76E8E32806D3F50BE29D8923F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				58B078FC61676D948B726E25FCF20E2E /* Sources */,
+				CAC72C285B0B38B31DF90F7A020B794E /* Frameworks */,
+				EE02666C7F866CCAAA2E9BAF5125C6B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB8DDAA50060F09A7AD31FB616A5C88 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 87E2366A6DFC9A16CCCF641EB9380113 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 75310EFF1218D482E9149BB06188EB3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3747FF3B2996FB9C9B0E249850B905 /* Pods */,
+				5A3B9260787BE7CFB38EA6A08CCCCCCE /* WrapperProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B078FC61676D948B726E25FCF20E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1330661EF843C92A05B3B1F01D34AE6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7381E4A6058C1693FB9747C5EA580153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B2A373DFC876815E1689C7E980C160 /* WrapperProject-dummy.m in Sources */,
+				5E893C110F01E8F1E698C80A78DFD291 /* WrapperProject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB8DDAA50060F09A7AD31FB616A5C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WrapperProject;
+			target = 5A3B9260787BE7CFB38EA6A08CCCCCCE /* WrapperProject */;
+			targetProxy = 29E473503E5B52231E344A4A3FA3888E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B4174574C89EAB7CCB40464BB6D388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F5C34D28A70D35AED30413FF55B3B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E92FF324C9BB2750CE44289AB7BC199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC426F2DBEAA639C0ED11DD9E511E8D /* WrapperProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WrapperProject/WrapperProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WrapperProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WrapperProject/WrapperProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WrapperProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA0CD594C12B6F531FABE95CF4F9BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC426F2DBEAA639C0ED11DD9E511E8D /* WrapperProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WrapperProject/WrapperProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WrapperProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WrapperProject/WrapperProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WrapperProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DCDCE76E8E32806D3F50BE29D8923F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C34D28A70D35AED30413FF55B3B99 /* Debug */,
+				1B4174574C89EAB7CCB40464BB6D388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8366130BF26EACCAD691031E2D6009E /* Build configuration list for PBXNativeTarget "WrapperProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E92FF324C9BB2750CE44289AB7BC199 /* Debug */,
+				EDA0CD594C12B6F531FABE95CF4F9BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
